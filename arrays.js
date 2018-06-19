@@ -24,6 +24,6 @@ destructivelyAddElementToBeginningOfArray = function (array2,element) {
  }
 
 accessElementInArray = function (array,index) {
-return Array[parseInt('index')]
+  return Array[parseInt(index)]
 }
 
