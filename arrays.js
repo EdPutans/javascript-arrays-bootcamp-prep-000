@@ -8,7 +8,7 @@ chocolateBars = [ 'snickers',
 addElementToBeginningOfArray = function(array,element) {
   return [element, ...array]
 }
-
-destructiveAddElementToBeginningOfArray = function (array,element){
-  return array[0] = element
+array = []
+destructiveAddElementToBeginningOfArray = function (Array,element) {
+  return Array[0] = element
   }
