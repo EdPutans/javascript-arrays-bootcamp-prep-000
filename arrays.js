@@ -28,7 +28,8 @@ accessElementInArray = function (array,index) {
 }
 
 destrctivelyRemoveElementFromBeginningOfArray = function (array) {
-  return array = array.slice[1]
+  var ar = array.slice[1]
+  return ar
 }
 
 removeElementFromBeginningOfArray = function (array){
