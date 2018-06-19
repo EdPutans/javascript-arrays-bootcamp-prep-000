@@ -27,4 +27,6 @@ accessElementInArray = function (array,index) {
   return array[parseInt(index)]
 }
 
-
+destrctivelyRemoveElementFromBeginningOfArray = function () {
+  
+}
