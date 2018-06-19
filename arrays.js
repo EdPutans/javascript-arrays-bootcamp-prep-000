@@ -29,7 +29,7 @@ accessElementInArray = function (array,index) {
 }
 
 destructivelyRemoveElementFromBeginningOfArray = function (array) {
- array= array.shift()
+ array=array.shift()
 return array
  
 }
