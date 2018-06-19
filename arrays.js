@@ -27,7 +27,7 @@ accessElementInArray = function (array,index) {
   return array[parseInt(index)]
 }
 
-destrctivelyRemoveElementFromBeginningOfArray = function (array) {
+destructivelyRemoveElementFromBeginningOfArray = function (array) {
   var ar = array.slice[1]
   return ar
 }
