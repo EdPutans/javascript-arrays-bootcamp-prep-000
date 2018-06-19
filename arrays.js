@@ -5,8 +5,8 @@ chocolateBars = [ 'snickers',
 'kitkat',
 'skittles']
   
-addElementToBeginningOfArray = function(array3,element) {
-  return [element, ...array3]
+addElementToBeginningOfArray = function(array,element) {
+  return [element, ...array]
 }
 
 destructivelyAddElementToBeginningOfArray = function (array,element) {
@@ -14,13 +14,13 @@ destructivelyAddElementToBeginningOfArray = function (array,element) {
   return array
   }
   
- addElementToEndOfArray = function (array4,element) {
-   return [...array4, element]
+ addElementToEndOfArray = function (array,element) {
+   return [...array, element]
  }
  
  destructivelyAddElementToEndOfArray = function (array5,element){
-   array5 = [...array5, element]
-   return array5
+   array = [...array, element]
+   return array
  }
 
 accessElementInArray = function (array,index) {
