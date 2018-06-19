@@ -9,9 +9,9 @@ addElementToBeginningOfArray = function(array3,element) {
   return [element, ...array3]
 }
 
-destructivelyAddElementToBeginningOfArray = function (array2,element) {
-  var arr = [element, ...array2]
-  return arr
+destructivelyAddElementToBeginningOfArray = function (array,element) {
+  var ar = [element, ...array]
+  return ar
   }
   
  addElementToEndOfArray = function (array4,element) {
