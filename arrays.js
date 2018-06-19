@@ -31,4 +31,6 @@ destrctivelyRemoveElementFromBeginningOfArray = function (array) {
   return array = array.slice[1]
 }
 
-remove
+removeElementFromBeginningOfArray = function (array){
+  return array.slice[1]
+}
