@@ -28,8 +28,8 @@ accessElementInArray = function (array,index) {
 }
 
 destructivelyRemoveElementFromBeginningOfArray = function (array) {
-  array = array.slice(1)
-  return array
+  ar = array.slice(1)
+  return ar
 }
 
 removeElementFromBeginningOfArray = function (array){
@@ -37,11 +37,11 @@ removeElementFromBeginningOfArray = function (array){
 }
 
 destructivelyRemoveElementFromEndOfArray = function(array) {
-  array = array.slice(-1)
+  array = array.slice(0,array.length-1)
   return array
 }
 
 removeElementFromEndOfArray = function (array) {
-  return array.slice(-1)
+  return array.slice(0, array.length-1)
 }
 
