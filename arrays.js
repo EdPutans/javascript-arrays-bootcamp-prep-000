@@ -10,8 +10,8 @@ addElementToBeginningOfArray = function(array,element) {
 }
 
 destructivelyAddElementToBeginningOfArray = function (array,element) {
-  var array2 = [element, ...array]
-  return array2
+  var array = [element, ...array]
+  return array
   }
   
  addElementToEndOfArray = function (array,element) {
@@ -19,10 +19,9 @@ destructivelyAddElementToBeginningOfArray = function (array,element) {
  }
  
  destructivelyAddElementToEndOfArray = function (){
-   var array2=[...array, element]
-   return array2
+   var array=[...array, element]
+   return array
  }
 
 accessElementInArray = function (array,index) {
 return Array[parseInt(index)]
-}
