@@ -1,4 +1,4 @@
-var chocolateBars = Array [ 'snickers',
+var chocolateBars = [ 'snickers',
 'hundred grand',
 'kitkat',
 'skittles']
